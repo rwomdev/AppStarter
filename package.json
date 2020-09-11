@@ -1,0 +1,27 @@
+{
+  "name": "appstarter",
+  "version": "1.0.0",
+  "description": "My First Netlify test function",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwomdev/AppStarter.git"
+  },
+  "keywords": [
+    "Netlify",
+    "Nodejs"
+  ],
+  "author": "Samson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwomdev/AppStarter/issues"
+  },
+  "homepage": "https://github.com/rwomdev/AppStarter#readme",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.1"
+  }
+}
